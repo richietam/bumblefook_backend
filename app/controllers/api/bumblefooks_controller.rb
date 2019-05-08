@@ -6,9 +6,9 @@ class Api::BumblefooksController < ApplicationController
   end
 
   def create
-      @bumblefook = Bumblefook.create(bumblefook_params)
-      render json: @bumblefook
-    end
+    @bumblefook = Bumblefook.create(bumblefook_params)
+    render json: @bumblefook
+  end
 
 
 
